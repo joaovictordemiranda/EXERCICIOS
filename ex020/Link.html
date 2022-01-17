@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando link</title>
+    <style>
+        /*
+        # = id
+        . = class
+        : = pseudo-class
+        :: = pseudo-element
+        > = children
+       
+       
+       
+       
+       
+       */
+        
+        a {
+            color: brown;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        a:visited {
+            color: seagreen;
+        }
+        
+        a:hover {
+            color: royalblue;
+            text-decoration: underline;
+        }
+        
+        a:active {
+            color: rgb(173, 69, 21);
+        }
+        
+        a::before {
+            content: '⇥';
+            color: darkred;
+            font-weight: none;
+        }
+        
+        a::after {
+            content: '⇤';
+            color: darkred;
+            font-weight: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Testando link</h1>
+    <ul>
+        <li><a href="https://youtu.be/ina0RFOCIBA" target="blank">canal do youtube</a></li>
+        <li><a href="http://youtube.com/cursoemvideo/">sites do cursoemvideo</a></li>
+    </ul>
+</body>
+
+</html>

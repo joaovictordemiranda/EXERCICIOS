@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="midia/style01.css">
+    <style>
+        @font-face {
+            font-family: 'badabb';
+            src: url('BADABB__.TTF') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        h1 {
+            font-family: 'badabb', 'Times New Roman', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+            text-align: center;
+        }
+        
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <H1>Cadastro de gamer´s</H1>
+    </header>
+    <div class="campo">
+        <p>Termine o Cadastro</p>
+    </div>
+    <br>
+    <form>
+        <fieldset class="grupo">
+            <div><label for="nome"><strong>nome</strong></label>
+                <input type="text" id="nome" name="nome" required></div>
+
+            <div>
+                <label for="sobrenome"><strong>sobrenome</strong></label>
+                <input type="text" id="sobrenome" name="sobrenome" required>
+            </div>
+            <div>
+                <label for="email"><strong>email</strong></label>
+                <input type="email" id="email" name="email" required>
+            </div>
+        </fieldset>
+        <div>
+            <label><strong>what´s gamer your favorit</strong></label>
+            <input type="radio" name="devweb" value="Mario" checked>Mario
+            <label>
+                <input type="radio" name="devweb" value="God of war" >God of war
+            </label>
+            <label>
+                <input type="radio" name="devweb"value="LoL">LoL
+            </label>
+        </div>
+
+        <div>
+            <label for="side application"><strong>Side application</strong></label>
+            <select name="side application" id="side application">
+            <option value="front-end">front-end</option>
+            <option value="back-end">back-end</option>
+            <option value="fullstack">fullstack</option>
+          </select>
+
+        </div>
+
+        <ul>
+            <li>
+                <a href="#"></a>HOME</li>
+            <li>
+                <a href="#"></a>INFORMATION</li>
+            <li>
+                <a href="#"></a>CONTACT-US</li>
+            <li>
+                <a href="#"></a>CADAST</li>
+        </ul>
+
+    </form>
+
+</body>
+
+</html>

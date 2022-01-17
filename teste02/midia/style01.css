@@ -1,0 +1,11 @@
+@charset 'UTF-8';
+* body {
+    background-image: linear-gradient(to top, black, white);
+    background-attachment: fixed;
+    color: darkred;
+}
+
+#menu-h {
+    list-style-type: none;
+    padding: 0%;
+}
